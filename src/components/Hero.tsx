@@ -30,13 +30,17 @@ const Hero = () => {
             </Button>
             
             <div className="flex gap-4">
-              <Button variant="outline" size="lg" className="hover:bg-gray-50">
-                <Github className="mr-2 h-5 w-5" />
-                GitHub
+              <Button variant="outline" size="lg" className="hover:bg-gray-50" asChild>
+                <a href="https://github.com/Krishnasharma192002" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-5 w-5" />
+                  GitHub
+                </a>
               </Button>
-              <Button variant="outline" size="lg" className="hover:bg-gray-50">
-                <Linkedin className="mr-2 h-5 w-5" />
-                LinkedIn
+              <Button variant="outline" size="lg" className="hover:bg-gray-50" asChild>
+                <a href="https://www.linkedin.com/in/krishna-parashar-b7703b230/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  LinkedIn
+                </a>
               </Button>
             </div>
           </div>

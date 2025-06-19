@@ -29,8 +29,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "krishnaparashar.dev@gmail.com",
-      href: "mailto:krishnaparashar.dev@gmail.com"
+      value: "er.krishnaparashar@gmail.com",
+      href: "mailto:er.krishnaparashar@gmail.com"
     },
     {
       icon: MapPin,
@@ -152,13 +152,17 @@ const Contact = () => {
             <div className="pt-8 border-t border-gray-200">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Follow Me</h4>
               <div className="flex gap-4">
-                <Button variant="outline" size="lg" className="flex-1">
-                  <Github className="mr-2 h-5 w-5" />
-                  GitHub
+                <Button variant="outline" size="lg" className="flex-1" asChild>
+                  <a href="https://github.com/Krishnasharma192002" target="_blank" rel="noopener noreferrer">
+                    <Github className="mr-2 h-5 w-5" />
+                    GitHub
+                  </a>
                 </Button>
-                <Button variant="outline" size="lg" className="flex-1">
-                  <Linkedin className="mr-2 h-5 w-5" />
-                  LinkedIn
+                <Button variant="outline" size="lg" className="flex-1" asChild>
+                  <a href="https://www.linkedin.com/in/krishna-parashar-b7703b230/" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="mr-2 h-5 w-5" />
+                    LinkedIn
+                  </a>
                 </Button>
               </div>
             </div>

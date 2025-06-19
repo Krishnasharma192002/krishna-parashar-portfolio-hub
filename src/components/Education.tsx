@@ -1,4 +1,3 @@
-
 import { Award, GraduationCap, Star } from 'lucide-react';
 
 const Education = () => {
@@ -23,7 +22,7 @@ const Education = () => {
             <div className="space-y-6">
               <div className="border-l-4 border-blue-500 pl-6">
                 <h4 className="text-lg font-semibold text-gray-900">B.Tech Computer Science Engineering</h4>
-                <p className="text-blue-600 font-medium">MIET (Model Institute of Engineering & Technology)</p>
+                <p className="text-blue-600 font-medium">MIET (Meerut Institute of Engineering & Technology)</p>
                 <p className="text-gray-600">Final Year • 2021-2025</p>
                 <p className="text-sm text-gray-500 mt-2">
                   Specializing in Software Development, Data Structures, Algorithms, and System Design

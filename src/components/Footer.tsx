@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -9,6 +8,11 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Java Full Stack Developer passionate about creating scalable web applications 
               and solving complex problems through technology.
+            </p>
+            <p className="text-gray-400">
+              <a href="mailto:er.krishnaparashar@gmail.com" className="hover:text-white transition-colors duration-200">
+                er.krishnaparashar@gmail.com
+              </a>
             </p>
           </div>
           
